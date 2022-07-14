@@ -1,7 +1,7 @@
 <div align=center>
     <h1>
         <img src="https://cdn.7tv.app/emote/61bf1cd52a281efd57b6f6b4/1x">
-        EmotesLib
+        EmoteLib
     </h1>
 </div>
 
@@ -15,16 +15,16 @@ It supports 4 providers:
 ## Installation guide:
 1. Install the library from Node Package Manager:
 ```bash
-$ npm install emoteslib
+$ npm i emotelib
 ```
 
 ## Usage:
 ### Initialization:
 ```typescript
-import EmotesLib from "emoteslib";
+import EmoteLib from "emotelib";
 
 // "client_id" and "access_token" are needed to convert the username into a user ID.
-const emotes = new EmotesLib({
+const emotes = new EmoteLib({
     client_id: "123456789abcdef",
     access_token: "123456789abcdef"
 });
